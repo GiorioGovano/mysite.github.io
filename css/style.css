@@ -1,0 +1,60 @@
+﻿body {
+    background-color: #c0ebc0;
+}
+.gs_table-style {
+    border: 1px solid #808080;
+    border-collapse: collapse;
+    margin: 2% 20%;
+
+}
+.fontstyle-times {
+    color: darkred;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+.fontstyle-Arial {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.fontstyle-Lucida {
+    color: brown;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: left;
+}
+.flex-block {
+    display: flex;
+    width: 100%;
+    margin: 0 5%;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 700px) {
+    .flex-item {
+        width: 100%;
+        margin: 0 10%;
+    }
+    h2{
+        font-size: 24px;
+    }
+}
+@media only screen and (min-width: 700px) {
+    .flex-item {
+        width: 40%;
+    }
+    h2 {
+        font-size: 16px;
+        color: green !important;
+    }
+}
+.block-margin {
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+.block-header {
+    text-align: center;
+    margin: 10px 10%;
+}
